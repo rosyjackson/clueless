@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180048C322B3DD0A0077660D /* SAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180048C222B3DD0A0077660D /* SAButton.swift */; };
+		180048C522B3EE120077660D /* SkinCareWebControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180048C422B3EE120077660D /* SkinCareWebControllerViewController.swift */; };
+		180048C822B3EE8C0077660D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180048C722B3EE8C0077660D /* WebKit.framework */; };
+		180048CA22B3F0FB0077660D /* MakeupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180048C922B3F0FB0077660D /* MakeupController.swift */; };
+		180048CC22B3F46B0077660D /* BeautyethicalsusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180048CB22B3F46B0077660D /* BeautyethicalsusController.swift */; };
+		180048CE22B3F7AC0077660D /* seedzController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180048CD22B3F7AC0077660D /* seedzController.swift */; };
+		180048D022B3F7CC0077660D /* WinslowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180048CF22B3F7CC0077660D /* WinslowsViewController.swift */; };
+		180048D222B3F7E90077660D /* whiskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180048D122B3F7E90077660D /* whiskViewController.swift */; };
 		18E7417722B2D6CC000C98EC /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E7417622B2D6CC000C98EC /* assets.xcassets */; };
 		18EDF77922B1513600A12756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDF77822B1513600A12756 /* AppDelegate.swift */; };
 		18EDF77B22B1513600A12756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDF77A22B1513600A12756 /* ViewController.swift */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180048C222B3DD0A0077660D /* SAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAButton.swift; sourceTree = "<group>"; };
+		180048C422B3EE120077660D /* SkinCareWebControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinCareWebControllerViewController.swift; sourceTree = "<group>"; };
+		180048C722B3EE8C0077660D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		180048C922B3F0FB0077660D /* MakeupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeupController.swift; sourceTree = "<group>"; };
+		180048CB22B3F46B0077660D /* BeautyethicalsusController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyethicalsusController.swift; sourceTree = "<group>"; };
+		180048CD22B3F7AC0077660D /* seedzController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seedzController.swift; sourceTree = "<group>"; };
+		180048CF22B3F7CC0077660D /* WinslowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinslowsViewController.swift; sourceTree = "<group>"; };
+		180048D122B3F7E90077660D /* whiskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whiskViewController.swift; sourceTree = "<group>"; };
 		18E7417622B2D6CC000C98EC /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
 		18EDF77522B1513600A12756 /* cluelessFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cluelessFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EDF77822B1513600A12756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +47,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180048C822B3EE8C0077660D /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180048C622B3EE8B0077660D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180048C722B3EE8C0077660D /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18EDF76C22B1513600A12756 = {
 			isa = PBXGroup;
 			children = (
 				18EDF77722B1513600A12756 /* cluelessFinalProject */,
 				18EDF77622B1513600A12756 /* Products */,
+				180048C622B3EE8B0077660D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +85,13 @@
 				18EDF77822B1513600A12756 /* AppDelegate.swift */,
 				18EDF77A22B1513600A12756 /* ViewController.swift */,
 				18EDF77C22B1513600A12756 /* Main.storyboard */,
+				180048CB22B3F46B0077660D /* BeautyethicalsusController.swift */,
+				180048CD22B3F7AC0077660D /* seedzController.swift */,
+				180048CF22B3F7CC0077660D /* WinslowsViewController.swift */,
+				180048D122B3F7E90077660D /* whiskViewController.swift */,
+				180048C922B3F0FB0077660D /* MakeupController.swift */,
+				180048C422B3EE120077660D /* SkinCareWebControllerViewController.swift */,
+				180048C222B3DD0A0077660D /* SAButton.swift */,
 				18E7417622B2D6CC000C98EC /* assets.xcassets */,
 				18EDF77F22B1513800A12756 /* metro  */,
 				18EDF78122B1513800A12756 /* LaunchScreen.storyboard */,
@@ -139,8 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180048D222B3F7E90077660D /* whiskViewController.swift in Sources */,
 				18EDF77B22B1513600A12756 /* ViewController.swift in Sources */,
+				180048CE22B3F7AC0077660D /* seedzController.swift in Sources */,
+				180048C522B3EE120077660D /* SkinCareWebControllerViewController.swift in Sources */,
+				180048CC22B3F46B0077660D /* BeautyethicalsusController.swift in Sources */,
+				180048D022B3F7CC0077660D /* WinslowsViewController.swift in Sources */,
+				180048C322B3DD0A0077660D /* SAButton.swift in Sources */,
 				18EDF77922B1513600A12756 /* AppDelegate.swift in Sources */,
+				180048CA22B3F0FB0077660D /* MakeupController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,15 +325,15 @@
 		18EDF78822B1513800A12756 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LBX4Q5MTFG;
+				DEVELOPMENT_TEAM = 2BXWMLQJRK;
 				INFOPLIST_FILE = cluelessFinalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Rosy-Jackson.cluelessFinalProject";
+				PRODUCT_BUNDLE_IDENTIFIER = Amy.cluelessFinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,15 +343,15 @@
 		18EDF78922B1513800A12756 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LBX4Q5MTFG;
+				DEVELOPMENT_TEAM = 2BXWMLQJRK;
 				INFOPLIST_FILE = cluelessFinalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Rosy-Jackson.cluelessFinalProject";
+				PRODUCT_BUNDLE_IDENTIFIER = Amy.cluelessFinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
